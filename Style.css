@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	
+	font-family: arial ;
+	background:  hsl(217, 54%, 11%);
+
+
+
+
+}
+
+/*CONTAINER */
+
+
+
+/*CARD BODY STYLE*/
+
+.card-body{
+	background: hsl(216, 50%, 16%);
+	margin: 55px auto;
+	width: 300px;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 5px 8px 5px rgba(0, 0, 0, 0.3);
+}
+
+/*CARD IMAGE STYLE*/
+
+.card-image{
+	position: relative;
+   
+}
+.card-image img{
+	width: 100%;
+	height: auto;
+	border-radius: 10px;	
+}
+.card-image img a:hover{
+	background: hsl(178, 100%, 50%);
+}
+
+/*CARD SVG STYLE*/
+
+.card-image .view{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 40px;
+	height: 40px;
+
+}
+svg{
+	margin-right: 10px;
+}
+
+/*CARD HEADING STYLING*/
+
+.card-text1{
+	margin-top: 15px;
+}
+.card-text1 .EQ{
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	color: hsl(178, 100%, 50%);
+
+}
+a{
+	text-decoration: none;
+	color: hsl(0, 0%, 100%);
+
+}
+/*CARD TEXT PRAGRAPH TIME AND ETH STYLE*/
+
+.card-text1 #p1{
+	margin-bottom: 20px;
+	font-size: 18px;
+	color:  hsl(215, 51%, 70%);
+	user-select: none;
+}
+
+.card-text2{
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.card-text2 .ETH{
+	color: hsl(178, 100%, 50%);
+	font-size: 16px;
+}
+.card-text2 .time{
+   color:  hsl(215, 51%, 70%);
+   font-size: 16px;	
+}
+
+hr{
+	color: hsl(215, 32%, 27%);
+	opacity: .1;
+}
+
+/*CARD FOOTER STYLE*/
+
+.card-footer{
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+.card-footer img{
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+}
+
+.card-footer span{
+	color:  hsl(215, 51%, 70%);	
+}
+.card-footer .jw{
+	color: hsl(178, 100%, 50%);
+}
+.attribution{
+	text-align: center;
+	font-size: 18px;
+}
